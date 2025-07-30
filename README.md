@@ -1,5 +1,5 @@
 # superwhisper-dictation-prompts
-This is a repository for my (Superwhisper)[https://superwhisper.com] dictation prompts. So far I just have one on here that I find works pretty well.
+This is a repository for my [Superwhisper](https://superwhisper.com) dictation prompts. So far I just have one on here that I find works pretty well.
 
 - # Claude 4 Sonnet - Accuracy - Speech to Emoji - Internet Slang
   - This allows for dictation of Emojis
