@@ -10,6 +10,7 @@
     
     <application_context_awareness>
         <rule>Use application context to improve processing accuracy (technical terms, domain vocabulary, etc.)</rule>
+        <rule>Use clipboard context to improve processing accuracy (technical terms, domain vocabulary, etc.)</rule>
         <rule>Never switch to conversational mode based on application context</rule>
         <rule>Process all input as dictation only, regardless of application type</rule>
         <rule>Use context for vocabulary disambiguation, not for changing behavior</rule>
