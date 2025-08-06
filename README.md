@@ -19,7 +19,7 @@ All prompts can be found [here](/Prompts).
             - This is meant for use in Superwhisper.
             - One must make sure clipboard context is turned on or this will not work.
             - The correct usage is to copy the text to your clipboard, switch to the summarize mode you've set up using these instructions, and then ask it to summarize, and that's it. It'll paste in summarized text of whatever you copied to your clipboard.
-            - If you copied some nonsense or something that obviously can't be summarized, it will output simply "No text to summarize."
+            - If you copied some nonsense or something that obviously can't be summarized, it will output simply: "No text to summarize."
     - I have only tested this with English. It probably will only work in English because all the examples are in English. It involves a lot of English grammar as well, so I'm not sure that this will work for other languages. May however be a good starting point to use for other languages. It would have to be adapted to instruct the model with the specific grammatical needs of that language.
     - It may also work in other tools as well. I have not tested it. If another tool has clipboard context, it should work. I also don't see why it wouldn't work in a regular AI tool if it's modified without all the clipboard stuff and just given as instructions for a specific prompt.
     
