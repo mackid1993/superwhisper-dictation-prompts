@@ -1,5 +1,7 @@
 # superwhisper-dictation-prompts
 This is a repository for my [Superwhisper](https://superwhisper.com) dictation prompts. XML headers are not included due to them not really being needed for the models to process. My goal is as little information in context as needed.
+All prompts can be found [here](/Prompts)
+
 
 - **Claude 4 Sonnet - Accuracy - Speech to Emoji - Internet Slang**
     - This allows for dictation of Emojis.
