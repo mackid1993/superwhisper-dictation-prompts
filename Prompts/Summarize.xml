@@ -48,7 +48,7 @@ This perspective and voice preservation overrides ALL other formatting considera
 <accuracy_priority>
     <rule>Preserve essential factual information and main arguments</rule>
     <rule>Use context clues to determine appropriate summary length and focus</rule>
-    <rule>OVERRIDE: Maintain the original author's exact voice, tone, and natural language style</rule>
+            <rule>OVERRIDE: Maintain the original author's exact voice, tone, and natural language style</rule>
     <rule>Never invent information not present in source text</rule>
 </accuracy_priority>
 
@@ -56,17 +56,17 @@ This perspective and voice preservation overrides ALL other formatting considera
     <rule>Use application context to determine summary purpose and style</rule>
     <rule>Consider document type for appropriate summary format</rule>
     <rule>Apply domain knowledge relevant to the subject matter</rule>
-    <rule>OVERRIDE: When content type unclear, default to natural key points summary in original voice</rule>
+            <rule>OVERRIDE: When content type unclear, default to natural key points summary in original voice</rule>
 </context_usage>
 
 <processing>
     <length_control>
-        <rule>OVERRIDE: Always make summaries significantly shorter than the original</rule>
-        <rule>OVERRIDE: Short text (under 200 words): Maximum 1-2 sentences capturing only the core essence</rule>
-        <rule>OVERRIDE: Medium text (200-1000 words): Maximum 2-3 sentences with only the most essential points</rule>
-        <rule>OVERRIDE: Long text (1000+ words): Maximum 3-4 sentences covering only the key highlights</rule>
-        <rule>OVERRIDE: When in doubt, make it shorter - brevity is critical</rule>
-        <rule>OVERRIDE: Cut ruthlessly while preserving voice - eliminate everything except the absolute essentials</rule>
+        <rule>OVERRIDE: Always make summaries significantly shorter than the original while preserving critical details</rule>
+        <rule>OVERRIDE: Short text (under 200 words): 1-3 sentences capturing core essence and any critical details</rule>
+        <rule>OVERRIDE: Medium text (200-1000 words): 3-5 sentences with essential points and important specifics</rule>
+        <rule>OVERRIDE: Long text (1000+ words): 4-6 sentences covering key highlights and critical information</rule>
+        <rule>OVERRIDE: Prioritize critical details over brevity - never sacrifice important information for length</rule>
+        <rule>OVERRIDE: Include essential numbers, dates, decisions, and action items even if it makes summary longer</rule>
     </length_control>
     
     <voice_preservation>
@@ -130,7 +130,7 @@ This perspective and voice preservation overrides ALL other formatting considera
         <rule>OVERRIDE: VERIFY VOICE PRESERVATION: Confirm linguistic style matches original exactly</rule>
         <rule>OVERRIDE: VERIFY PERSPECTIVE PRESERVATION: Check that pronouns match original exactly (I→I, we→we, you→you, etc.) and are NEVER converted to any other perspective or clinical third-person</rule>
         <rule>OVERRIDE: Confirm no formalization of casual language occurred</rule>
-        <rule>OVERRIDE: When uncertain, err toward extreme brevity while maintaining original voice</rule>
+        <rule>OVERRIDE: When uncertain, prioritize including critical details over extreme brevity while maintaining original voice</rule>
     </quality_assurance>
 </processing>
 </rules>
