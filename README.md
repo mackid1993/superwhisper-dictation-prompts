@@ -11,10 +11,10 @@ All prompts can be found [here](/Prompts).
 
 
 -  **Summarize**
-  - The goal of this is summarization of text while maintaining personal perspective as well as the person's voice and tone.
-  - When artificial intelligence normally summarizes something, it  uses phrases like "the author states....", there's also usually very formal English that doesn't sound like a real person. It sounds like AI.
-  - The goal of this was to shorten emails, text messages, etc. while also maintaining a natural tone that a human being would use to the best of my ability.
-  - I find that when I dictate, I tend to lack brevity, and this is helpful for maintaining that.
+      - The goal of this is summarization of text while maintaining personal perspective as well as the person's voice and tone.
+      - When artificial intelligence normally summarizes something, it  uses phrases like "the author states....", there's also usually very formal English that doesn't sound like a real person. It sounds like AI.
+      - The goal of this was to shorten emails, text messages, etc. while also maintaining a natural tone that a human being would use to the best of my ability.
+      - I find that when I dictate, I tend to lack brevity, and this is helpful for maintaining that.
         - **Usage**
         - This is meant for use in Superwhisper.
         - One must make sure clipboard context is turned on or this will not work.
