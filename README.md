@@ -26,4 +26,4 @@ All prompts can be found [here](/Prompts). These have been customized heavily fo
     - It may also work in other tools as well. I have not tested it. If another tool has clipboard context, it should work. I also don't see why it wouldn't work in a regular AI tool if it's modified without all the clipboard stuff and just given as instructions for a specific prompt. It is using keywords specific to Superwhisper, so those may have to be modified to use in a different tool.
  
 ---
-*While not intended for dictation or Superwhisper, any general instructions or prompts I come up with will be stored in [non-Dictation Prompts]("/non-Dictation Prompts") just as personal storage for myself and free for anyone to use.*
+*While not intended for dictation or Superwhisper, any general instructions or prompts I come up with will be stored in [non-Dictation Prompts](./non-Dictation%20Prompts/) just as personal storage for myself and free for anyone to use.*
