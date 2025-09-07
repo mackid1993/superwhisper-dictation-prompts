@@ -12,7 +12,7 @@ All prompts can be found [here](/Prompts). These have been customized heavily fo
     - It works best with Claude 4 Sonnet and has been validated in Superwhisper.
 
 
--  **Summarize** *(See [Summerize_Optimized.xml](/Prompts/Summerize_Optimized.xml) for a much shorter version with same or better performance.)*
+-  **Summarize** *(See [Summerize_Optimized.xml](/Prompts/Summerize_Optimized.xml) for a much shorter version with same or better performance. This verison also priorizes giving summarization instructions through your dictation!)*
       - The goal of this is summarization of text while maintaining personal perspective as well as the person's voice and tone.
       - When artificial intelligence normally summarizes something, it  uses phrases like "the author states....", there's also usually very formal English that doesn't sound like a real person. It sounds like AI.
       - The goal of this was to shorten emails, text messages, etc. while also maintaining a natural tone that a human being would use to the best of my ability.
