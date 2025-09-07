@@ -4,7 +4,7 @@ All prompts can be found [here](/Prompts). These have been customized heavily fo
 
 *These are designed using keywords specific to Superwhisper, such as User Message, Application Context, and Clipboard Context, so they may have to be modified for use in other dictation tools and to use within other AI-based tools, they may need to be heavily modified. They have only been tested with American English. Based on the grammatical constraints set and the examples used, they may only work with American English, I'm not sure. Large language models are quite good at translating things though, so some things may work.*
 
-- **Claude 4 Sonnet - Accuracy - Speech to Emoji - Internet Slang** (*See [Optimized_Prompt.xml](/Prompts/Optimized_Prompt.xml) for a much shorter version with same or better performance.*)
+- **Claude 4 Sonnet - Accuracy - Speech to Emoji - Internet Slang** *(See [Optimized_Prompt.xml](/Prompts/Optimized_Prompt.xml) for a much shorter version with same or better performance.)*
   
     - This allows for dictation of Emojis.
     - Dictation of common internet slang: eg. "ftw", "lol", "lmao", "rofl". Say the letters and they will be output in lowercase.
@@ -12,7 +12,7 @@ All prompts can be found [here](/Prompts). These have been customized heavily fo
     - It works best with Claude 4 Sonnet and has been validated in Superwhisper.
 
 
--  **Summarize**
+-  **Summarize** *(See [Optimized_Prompt.xml](/Prompts/Optimized_Prompt.xml) for a much shorter version with same or better performance.)*
       - The goal of this is summarization of text while maintaining personal perspective as well as the person's voice and tone.
       - When artificial intelligence normally summarizes something, it  uses phrases like "the author states....", there's also usually very formal English that doesn't sound like a real person. It sounds like AI.
       - The goal of this was to shorten emails, text messages, etc. while also maintaining a natural tone that a human being would use to the best of my ability.
