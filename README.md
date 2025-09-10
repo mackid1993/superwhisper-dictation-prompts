@@ -1,6 +1,6 @@
 # superwhisper-dictation-prompts
 This is a repository for my [Superwhisper](https://superwhisper.com) dictation prompts. XML headers are not included due to them not really being needed for the models to process. My goal is as little information in context as needed.
-All prompts can be found [here](/Prompts). These have been customized heavily for Superwhisper. They also use the suggested language found [here](https://superwhisper.com/docs/modes/custom).
+All prompts can be found [here](/Prompts). Older variants can be found in [Deprecated](/Prompts/Deprecated). These prompts have been customized heavily for Superwhisper. They also use the suggested language found [here](https://superwhisper.com/docs/modes/custom).
 
 *These are designed using keywords specific to Superwhisper, such as User Message, Application Context, and Clipboard Context, so they may have to be modified for use in other dictation tools and to use within other AI-based tools, they may need to be heavily modified. They have only been tested with American English. Based on the grammatical constraints set and the examples used, they may only work with American English, I'm not sure. Large language models are quite good at translating things though, so some things may work.*
 
