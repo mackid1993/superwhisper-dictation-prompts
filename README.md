@@ -9,8 +9,7 @@ All prompts can be found [here](/Prompts). Older variants can be found in [Depre
     - This allows for dictation of Emojis.
     - Dictation of common internet slang: eg. "ftw", "lol", "lmao", "rofl". Say the letters and they will be output in lowercase.
     - It has a high focus on accuracy.
-    - It works best with Claude Sonnet 4 and has been validated in Superwhisper.
-    - Best used with a smarter model Claude Sonnet 4, GPT-5, GPT-4.1
+    - Best used with a smarter model such as Claude Sonnet 4, GPT-5, GPT-4.1.
 
 
 -  **Summarize**: [Summerize_Optimized.xml](/Prompts/Summerize_Optimized.xml)
