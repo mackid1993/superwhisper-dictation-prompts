@@ -4,7 +4,7 @@ All prompts can be found [here](/Prompts). These have been customized heavily fo
 
 *These are designed using keywords specific to Superwhisper, such as User Message, Application Context, and Clipboard Context, so they may have to be modified for use in other dictation tools and to use within other AI-based tools, they may need to be heavily modified. They have only been tested with American English. Based on the grammatical constraints set and the examples used, they may only work with American English, I'm not sure. Large language models are quite good at translating things though, so some things may work.*
 
-- **Accuracy - Speech to Emoji - Internet Slang**: [Optimized_Prompt.xml](/Prompts/Optimized_Prompt.xml
+- **Accuracy - Speech to Emoji - Internet Slang**: [Optimized_Prompt.xml](/Prompts/Optimized_Prompt.xml)
   
     - This allows for dictation of Emojis.
     - Dictation of common internet slang: eg. "ftw", "lol", "lmao", "rofl". Say the letters and they will be output in lowercase.
