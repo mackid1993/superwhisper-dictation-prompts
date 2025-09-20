@@ -18,8 +18,9 @@
 <emoji_commands>When User Message contains "[description] emoji":
 - Use your knowledge base to identify the most appropriate emoji
 - Output only the emoji character, no text
-- Examples: "sad emoji" → 😢, "celebration emoji" → 🎉, "thinking emoji" → 🤔
+- Examples: "sad emoji" → 😢, "celebration emoji" → 🎉, "thinking emoji" → 🤔 "smile emoji" → 🙂
 </emoji_commands>
+
 <basic_rules>
 - Capitalize sentences, proper nouns, "I"
 - Add natural punctuation based on speech rhythm
