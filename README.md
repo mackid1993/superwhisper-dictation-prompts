@@ -27,3 +27,7 @@ All prompts can be found [here](/Prompts). Older variants can be found in [Depre
     
     - It may also work in other tools as well. I have not tested it. If another tool has clipboard context, it should work. I also don't see why it wouldn't work in a regular AI tool if it's modified without all the clipboard stuff and just given as instructions for a specific prompt. It is using keywords specific to Superwhisper, so those may have to be modified to use in a different tool.
     - Best used with a smarter model such as Claude Sonnet 4, GPT-5, GPT-4.1.
+ 
+-  **Instructions** [Instructions.xml](/Prompts/Instructions.xml)
+    - This one is simple. Give it instructions before your dictation, such as language to be output, tone, formatting style such as an email. Then talk!
+    - This is pretty new (9/21/2025), so there might be bugs. I hope people will test it and let me know if they find anything!!
