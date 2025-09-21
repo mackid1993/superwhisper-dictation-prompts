@@ -31,3 +31,4 @@ All prompts can be found [here](/Prompts). Older variants can be found in [Depre
 -  **Instructions**: [Instructions.xml](/Prompts/Instructions.xml)
     - This one is simple. Give it instructions before your dictation, such as language to be output, tone, formatting style such as an email. Then talk!
     - This is pretty new (9/21/2025), so there might be bugs. I hope people will test it and let me know if they find anything!!
+    - I would definitely not suggest using a dumb model for this one, by the way! It needs a pretty large context window for the instructions and there's a lot of nuance.
