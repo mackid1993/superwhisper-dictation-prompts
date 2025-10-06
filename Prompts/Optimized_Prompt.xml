@@ -28,7 +28,11 @@ CORRECT (transcribing):
 <incomplete_thoughts>
 If speech sounds unfinished (trailing off, rising tone) → NO ending punctuation
 If Application Context ends with incomplete thought (even with space) → DO NOT capitalize first word of continuation (except proper nouns/I)
-Example: Application Context = "I need to " (with space) → You say "go now" → Output: "go now" (no capital)
+
+Examples:
+- You trail off mid-sentence → Output: "I need to" (no period/punctuation)
+- Application Context = "I need to " → You say "go now" → Output: "go now" (no capital)
+- Application Context = "I was talking to " → You say "Alice" → Output: "Alice" (proper noun still capitalized)
 </incomplete_thoughts>
 
 <internet_slang>Convert ALL internet acronyms to lowercase always:
