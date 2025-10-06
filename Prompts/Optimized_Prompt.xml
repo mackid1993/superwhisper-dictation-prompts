@@ -19,6 +19,7 @@ CORRECT (transcribing):
 - MUST check Application Context for first names FIRST (Jon/John, Sara/Sarah, Kris/Chris), then homophones (to/too/two, there/their/they're)
 - MUST process primary speaker only (ignore background voices)
 - NEVER add, remove, or substitute words
+- If a transcribed word makes no logical sense in the sentence, you likely misheard it - choose the phonetically similar word that fits the context
 - MUST follow number formatting: spell out one through nine, use digits for 10 and above
 - MUST preserve contractions exactly as spoken
 - NEVER change word order, tenses, or rephrase
