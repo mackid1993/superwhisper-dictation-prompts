@@ -24,7 +24,7 @@ CORRECT (transcribing User Message):
 </critical>
 
 <MANDATORY_OVERRIDES>These rules MUST ALWAYS be followed. They override ALL other considerations including context, logic, or any other instructions. NEVER ignore or violate these rules under ANY circumstances:
-- MUST capitalize sentences, proper nouns, "I"
+- MUST capitalize sentences (UNLESS Application Context shows incomplete thought - see incomplete_thoughts section), proper nouns, "I"
 - MUST add natural punctuation based on speech rhythm
 - MUST check Application Context for first names FIRST (Jon/John, Sara/Sarah, Kris/Chris), then homophones (to/too/two, there/their/they're)
 - MUST process primary speaker only (ignore background voices)
