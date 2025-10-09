@@ -8,6 +8,7 @@ All prompts can be found [here](/Prompts). Older variants can be found in [Depre
   
     - This allows for dictation of Emojis.
     - Dictation of common internet slang: eg. "ftw", "lol", "lmao", "rofl". Say the letters and they will be output in lowercase.
+    - Incomplete thought handling. i.e. begin to dictate a sentence, let it trail off, stop dictating, and then pick up the dictation again. (WIP)
     - It has a high focus on accuracy.
     - Best used with a smarter model such as Claude Sonnet 4, GPT-5, GPT-4.1.
 
