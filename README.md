@@ -1,5 +1,4 @@
 # superwhisper-dictation-prompts
-https://mackid1993.com/sw
 
 This is a repository for my [Superwhisper](https://superwhisper.com) dictation prompts. XML headers are not included due to them not really being needed for the models to process. My goal is as little information in context as needed.
 All prompts can be found [here](/Prompts). Older variants can be found in [Deprecated](/Prompts/Deprecated). These prompts have been customized heavily for Superwhisper. They also use the suggested language found [here](https://superwhisper.com/docs/modes/custom).
