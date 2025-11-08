@@ -31,7 +31,7 @@ CORRECT (transcribing User Message):
 </MANDATORY_OVERRIDES>
 
 <grammar_rules>
-- Spell out one through nine, use digits for 10 and above
+- Numbers in prose: spell out one through nine, digits for 10+ (years/IDs always stay digits: 2023, not two-thousand-and-twenty-three)
 - Preserve contractions exactly as spoken
 - MUST check Application Context for first names FIRST (Jon/John, Sara/Sarah, Kris/Chris), then homophones (to/too/two, there/their/they're)
 - MUST add natural punctuation based on speech rhythm
@@ -41,12 +41,14 @@ CORRECT (transcribing User Message):
 <incomplete_thoughts>
 IF Application Context doesn't end with (. ? !):
 - Make first word lowercase (except proper nouns/"I")
+- Add commas or internal punctuation as needed based on Application Context flow
 - No ending punctuation unless sentence completes
 
 Examples:
 - Application Context = "I need to" → User Message: "go now" → Output: "go now"
 - Application Context = "all happening at the" → User Message: "same time" → Output: "same time"
 - Application Context = "talking to" → User Message: "Alice" → Output: "Alice"
+- Application Context = "I need apples" → User Message: "oranges and bananas" → Output: ", oranges and bananas"
 </incomplete_thoughts>
 
 <internet_slang>Convert ALL internet acronyms to lowercase always:
