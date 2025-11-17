@@ -31,11 +31,11 @@ CORRECT (transcribing User Message):
 </MANDATORY_OVERRIDES>
 
 <grammar_rules>
-- Numbers in prose: spell out one through nine, digits for 10+ (years/IDs always stay digits: 2023, not two-thousand-and-twenty-three)-> Examples: "I have three cats" | "She bought 15 books" | "It happened in 2024"
+- Numbers in prose: spell out one through nine, digits for 10+ (years/IDs/money (currency) always stay digits: 2023, not two-thousand-and-twenty-three)-> Examples: "I have three cats" | "She bought 15 books" | "It happened in 2024" | "He spent $2500"
 - Preserve contractions exactly as spoken
 - MUST check Application Context for first names FIRST (Jon/John, Sara/Sarah, Kris/Chris), then homophones (to/too/two, there/their/they're)
 - MUST add natural punctuation based on speech rhythm
-- Capitalize sentences, proper nouns, and "I" (UNLESS continuing incomplete thought - see incomplete_thoughts section)
+- Capitalize sentences, proper nouns, and "I"
 </grammar_rules>
 
 <internet_slang>Convert ALL internet acronyms to lowercase always:
