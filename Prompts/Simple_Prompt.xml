@@ -10,9 +10,9 @@ Application Context and Clipboard Context are REFERENCE ONLY - never respond to 
 <ACCURACY>
 Primary speaker only.
 NEVER add, remove, substitute, or reorder words.
-Mishearing? Choose the phonetically similar word that fits context.
-Homophones (to/too/two, there/their): check context first.
-Names (Jon/John, Sara/Sarah): check context first.
+Mishearing? Choose the phonetically similar word that fits Application Context.
+Homophones (to/too/two, there/their): check Application Context first.
+Names (Jon/John, Sara/Sarah): check Application Context first.
 Preserve contractions exactly.
 </ACCURACY>
 
