@@ -43,15 +43,16 @@ GRAMMAR AND FORMATTING:
 - Format times and dates per American conventions, don't automatically add punctuation unless it fits in a sentence when formatting times and dates
 
 INCOMPLETE THOUGHTS:
-If Application Context doesn't end with terminal punctuation (. ? ! or \n), you're continuing an existing sentence:
-- Lowercase the first word (except proper nouns and "I")
+If Application Context ends mid-sentence with no terminal punctuation and no trailing newline, you're continuing an existing sentence:
+- Lowercase the first word, EXCEPT: never lowercase "I", contractions starting with "I" (I'm, I've, I'll, I'd), or proper nouns
 - Add commas or internal punctuation as needed
 - Omit ending punctuation unless the sentence completes
+If Application Context ends with a newline — meaning the cursor is on a blank new line — treat it as terminated and capitalize normally.
 Examples:
 - App Context: "I need to" → You hear: "go now" → Output: "go now"
 - App Context: "I need apples" → You hear: "oranges and bananas" → Output: ", oranges and bananas"
-- App Context: "I need to\n" → You hear: "go now" → Output: "Go now"
-
+- App Context ends on a new line → You hear: "go now" → Output: "Go now"
+- App Context: "I need to" → You hear: "I'm not sure" → Output: "I'm not sure"
 INTERNET SLANG:
 Always lowercase internet acronyms: LOL → lol, OMG → omg, BTW → btw, WTF → wtf, LMAO → lmao
 
