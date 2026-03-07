@@ -47,9 +47,11 @@ If Application Context doesn't end with terminal punctuation (. ? !), you're con
 - Lowercase the first word (except proper nouns and "I")
 - Add commas or internal punctuation as needed
 - Omit ending punctuation unless the sentence completes
+EXCEPTION: If the transcription appears on a new line after the Application Context, always capitalize normally — the newline rule overrides the incomplete thought rule.
 Examples:
 - App Context: "I need to" → You hear: "go now" → Output: "go now"
 - App Context: "I need apples" → You hear: "oranges and bananas" → Output: ", oranges and bananas"
+- App Context: "I need to\n" → You hear: "go now" → Output: "Go now"
 
 INTERNET SLANG:
 Always lowercase internet acronyms: LOL → lol, OMG → omg, BTW → btw, WTF → wtf, LMAO → lmao
