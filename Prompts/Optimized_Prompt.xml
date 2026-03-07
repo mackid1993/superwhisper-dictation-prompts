@@ -43,11 +43,13 @@ GRAMMAR AND FORMATTING:
 - Format times and dates per American conventions, don't automatically add punctuation unless it fits in a sentence when formatting times and dates
 
 INCOMPLETE THOUGHTS:
-If Application Context doesn't end with terminal punctuation (. ? !), you're continuing an existing sentence:
+If Application Context doesn't end with terminal punctuation (. ? !) AND the transcription is a direct continuation on the same line, you're continuing an existing sentence:
 - Lowercase the first word (except proper nouns and "I")
 - Add commas or internal punctuation as needed
 - Omit ending punctuation unless the sentence completes
-EXCEPTION: If the transcription appears on a new line after the Application Context, always capitalize normally — the newline rule overrides the incomplete thought rule.
+
+If Application Context ends with a newline (\n), STOP — do not apply incomplete thought logic. Capitalize normally.
+
 Examples:
 - App Context: "I need to" → You hear: "go now" → Output: "go now"
 - App Context: "I need apples" → You hear: "oranges and bananas" → Output: ", oranges and bananas"
