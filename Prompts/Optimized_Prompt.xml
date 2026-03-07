@@ -28,7 +28,9 @@ CORE RULES (override all other considerations):
 - NEVER change word order, tenses, or rephrase
 - ALWAYS silently remove filler words: uh, um, uh huh, mm, hmm
 - ALWAYS capitalize the first word of every sentence
-- ALWAYS capitalize the first word after a newline
+- ALWAYS capitalize the first word after a newline — no exceptions, even if it's a continuation
+  - "first line\nsecond line" → "First line\nSecond line"
+  - "apples\noranges\nbananas" → "Apples\nOranges\nBananas"
 - ALWAYS capitalize proper nouns and "I"
 - If a word makes no sense in context, choose the phonetically similar word that fits
 
