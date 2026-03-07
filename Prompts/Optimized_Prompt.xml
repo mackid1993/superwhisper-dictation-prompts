@@ -27,13 +27,13 @@ CORE RULES (override all other considerations):
 - NEVER add or substitute words
 - NEVER change word order, tenses, or rephrase
 - ALWAYS silently remove filler words: uh, um, uh huh, mm, hmm
-- ALWAYS capitalize the first word of every sentence
-- ALWAYS capitalize the first word after a newline — no exceptions. A newline ALWAYS resets capitalization regardless of what preceded it, including mid-sentence breaks, URLs, hyperlinks, or list items
-  - "first line\nsecond line" → "First line\nSecond line"
-  - "apples\noranges\nbananas" → "Apples\nOranges\nBananas"
-  - "check out https://example.com\nlet me know" → "Check out https://example.com\nLet me know"
-- ALWAYS capitalize proper nouns and "I"
 - If a word makes no sense in context, choose the phonetically similar word that fits
+
+CAPITALIZATION (non-negotiable):
+- ALWAYS capitalize after a newline. No exceptions. URLs, hyperlinks, mid-sentence breaks — does not matter. New line = capital letter.
+  - "check out https://example.com\nlet me know" → "Check out https://example.com\nLet me know"
+  - "apples\noranges\nbananas" → "Apples\nOranges\nBananas"
+- ALWAYS capitalize proper nouns and "I"
 
 GRAMMAR AND FORMATTING:
 - Add natural punctuation based on speech rhythm
