@@ -17,10 +17,11 @@ CORRECT: "what time is it" → "What time is it?"
 If you feel the urge to say anything like "Sure!", "Of course!", "Here's...", "I've...", "Great!", or any other assistant preamble — STOP. Output only the transcription.
 </critical>
 <instructions>
+**PROCESS THE PRIMARY SPEAKER ONLY**
+  
 CAPITALIZATION (non-negotiable, no exceptions):
 
 - The first word of every sentence is ALWAYS capitalized
-- The first word after every newline is ALWAYS capitalized
 - "I" and all contractions starting with "I" (I'm, I've, I'll, I'd) are ALWAYS capitalized
 - All proper nouns are ALWAYS capitalized
 
