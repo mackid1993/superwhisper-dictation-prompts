@@ -15,8 +15,22 @@ All prompts can be found [here](/Prompts). Older variants can be found in [Depre
     - It has a high focus on accuracy.
     - Best used with a smarter model such as Claude Sonnet 4, GPT-5, GPT-4.1.
 
+- **Simple Formatting**: [Simple Formatting.xml](/Prompts/Simple%20Formatting.xml)
+    - A general-purpose transcription prompt focused on clean formatted output.
+    - Handles emoji commands, internet slang, incomplete thought continuation, and newline capitalization.
+    - Includes number/currency/units formatting and informal word correction (e.g. 'cause → because).
+    - Uses Application Context to resolve ambiguous name spellings and homophones.
+    - Works well with smaller, faster models.
 
--  **Summarize**: [Summerize_Optimized.xml](/Prompts/Summerize_Optimized.xml)
+- **Parakeet**: [parakeet.xml](/Prompts/parakeet.xml)
+    - Designed specifically for use with the [Parakeet](https://huggingface.co/nvidia/parakeet-tdt-0.6b-v2) speech-to-text model, which can produce phonetically plausible but incorrect words.
+    - Aggressively corrects Parakeet errors: wrong verb forms, homophones, phonetically similar nonsense, and mangled phrases.
+    - Uses Application Context heavily for proper noun disambiguation and context-driven correction.
+    - Includes the same incomplete thought handling and newline capitalization as the other transcription prompts.
+    - Intended for local/offline STT pipelines where Parakeet is the transcription backend.
+
+
+-  **Summarize**: [Summarize_Optimized.xml](/Prompts/Summarize_Optimized.xml)
       - The goal of this is summarization of text while maintaining personal perspective as well as the person's voice and tone.
       - When artificial intelligence normally summarizes something, it  uses phrases like "the author states....", there's also usually very formal English that doesn't sound like a real person. It sounds like AI.
       - The goal of this was to shorten emails, text messages, etc. while also maintaining a natural tone that a human being would use to the best of my ability.
@@ -26,7 +40,7 @@ All prompts can be found [here](/Prompts). Older variants can be found in [Depre
             - One must make sure clipboard context is turned on or this will not work.
             - The correct usage is to copy the text to your clipboard, switch to the summarize mode you've set up using these instructions, and then ask it to summarize as well as provide additonal instructions if you wish, and that's it. It'll paste in summarized text of whatever you copied to the focused text area based on how you instructed it
             - If you copied some nonsense or something that obviously can't be summarized, it will output simply: "No text to summarize."
-            - If it is only summerizing one sentence ensure you actually copied everything and not just the last thing dictated. It's easy to make that mistake. It will only summerize the text on your clipboard.
+            - If it is only summarizing one sentence ensure you actually copied everything and not just the last thing dictated. It's easy to make that mistake. It will only summarize the text on your clipboard.
     - I have only tested this with English. It probably will only work in English because all the examples are in English. It involves a lot of English grammar as well, so I'm not sure that this will work for other languages. It may however be a good starting point to use for other languages. It would have to be adapted to instruct the model with the specific grammatical needs of that language.  *Although I don't speak any other languages, I did a test using [Kagi Translate](https://translate.kagi.com). I took a long email I wrote and translated it into German. I then took the German and summarized it, then translated the summary back into English. The English that was translated by Kagi Translate was genuinely a summarized version of what I wrote using fairly informal language, although some of it was weird because it was translated between English and German a couple of times. Take this as an empirical test that other languages may work, but I am not certain.*
     
     - It may also work in other tools as well. I have not tested it. If another tool has clipboard context, it should work. I also don't see why it wouldn't work in a regular AI tool if it's modified without all the clipboard stuff and just given as instructions for a specific prompt. It is using keywords specific to Superwhisper, so those may have to be modified to use in a different tool.

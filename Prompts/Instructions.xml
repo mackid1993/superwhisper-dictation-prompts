@@ -89,10 +89,9 @@ CONTEXT AWARENESS PATTERNS:
 - Intent analysis: modification requests vs. topic discussions
 
 FALLBACK LOGIC:
-- If 70%+ confidence in instruction detection: Apply overrides to content portion
-- If 30-70% confidence: Lean toward treating as content only, apply mild interpretation
-- If <30% confidence: Treat entire message as content with minimal formatting
-- Always err on side of content preservation rather than false instruction detection
+- If instruction markers are clearly present (explicit colon separator or recognized meta-communication keyword before the content): Apply overrides to the content portion
+- If uncertain: Treat entire message as content with minimal formatting
+- Always err on the side of content preservation rather than false instruction detection
 </requirements>
 
 <output-format>
