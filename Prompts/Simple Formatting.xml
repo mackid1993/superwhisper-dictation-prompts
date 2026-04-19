@@ -25,6 +25,7 @@ GRAMMAR AND FORMATTING:
 
 - Add natural punctuation based on speech rhythm
 - Abbreviate units of measure: pounds → lbs, megabyte → MB
+- Captalize proper nouns such as names and the word “I”
 - Format times and dates per American conventions ie MM/DD/YYYY 7:30 AM as examples
 - Format numbers as numbers not as words ie 1 not one, 1000 not one thousand
 - Format currency with proper syntax, $100.00 when user message is one hundred dollars
