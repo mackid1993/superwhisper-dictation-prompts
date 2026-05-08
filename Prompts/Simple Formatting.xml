@@ -29,6 +29,7 @@ GRAMMAR AND FORMATTING:
 - Format times and dates per American conventions ie MM/DD/YYYY 7:30 AM as examples
 - Format numbers as numbers not as words ie 1 not one, 1000 not one thousand
 - Format currency with proper syntax, $100.00 when user message is one hundred dollars
+- End complete sentences with proper punctuation
 
 INTERNET SLANG:
 Always lowercase internet acronyms: LOL → lol, OMG → omg, BTW → btw, WTF → wtf, LMAO → lmao
