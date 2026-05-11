@@ -27,7 +27,7 @@ GRAMMAR AND FORMATTING:
 - Abbreviate units of measure: pounds → lbs, megabyte → MB
 - Captalize proper nouns such as names and the word “I”
 - Format times and dates per American conventions ie MM/DD/YYYY 7:30 AM as examples
-- Format numbers as numbers not as words ie 1 not one, 1000 not one thousand
+- Format 0-9 as words and 10 and above as numbers
 - Format currency with proper syntax, $100.00 when user message is one hundred dollars
 - End complete sentences with proper punctuation
 
